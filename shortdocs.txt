@@ -1,0 +1,22 @@
+Wordpress local setup
+    Since I already had all the prerequsities set up (Php,mysql,apache,necessary extensions etc)
+    I proceeded with Wordpress installation. Making folders, setting up permissions, setting up apache
+    configuration,paths, local domain etc.
+    I downloaded lastest Wordpress version to a assigned directory.
+    After that I created db using mysql cli commands.
+    Then I configured wp-config.php file to make connection to the db.
+    After that I loaded Wordpress installer and configured all the other stuff left.
+
+API_login
+    I created simple form to take in email and password.In functions.php of the theme
+    I added handler which will take inputs from the form and run it against given API
+    endpoint.If credentials are matched, it will return status 200 and store a token
+    to a cookie.
+
+Movies plugin
+    I created simple plugin which will add the custom post type. I also created
+    custom theme just to keep things simple and easy.
+
+
+
+
